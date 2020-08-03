@@ -14,7 +14,16 @@
         "azurecloudhotfolder",
         "ycommercewebservices",
         "cmswebservices",
-        "permissionswebservices"
+        "permissionswebservices",
+        "smartedit",
+        "cmssmartedit",
+        "smarteditwebservices",
+        "cmssmarteditwebservices",
+        "oauth2",
+        "cmswebservices",
+        "permissionswebservices",
+        "previewwebservices",
+        "mediaweb"
     ],
 
     "storefrontAddons" : [
@@ -99,6 +108,10 @@
         {
             "name": "api",
             "properties": [
+                    {
+                        "key":"storefrontContextRoot",
+                         "value":"<yourcustomstorefront>"
+                     },
                     {
                         "key":"xss.filter.header.X-Frame-Options",
                         "value":""
