@@ -440,7 +440,7 @@
         },
         {
           "name": "yacceleratorstorefront",
-          "contextPath": "/<yourcustomstorefront>"
+          "contextPath": "/yacceleratorstorefront"
         },
         {
           "name": "smartedit",
