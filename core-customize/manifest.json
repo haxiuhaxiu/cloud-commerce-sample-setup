@@ -31,7 +31,7 @@
             "addon": "albinoaddon",
             "storefront": "yacceleratorstorefront",
             "template": "yacceleratorstorefront"
-        }
+        },
         {
          "addon": "smarteditaddon",
          "storefront": "<yourcustomstorefront>",
@@ -43,6 +43,13 @@
          "storefront": "<yourcustomstorefront>",
          "template": "yacceleratorstorefront"
          },
+        
+        {
+        "addon": "smarteditaddon",
+        "storefront": "<yourcustomstorefront>",
+        "template": "yacceleratorstorefront"
+        }
+        
     ],
     "properties": [
         {
@@ -110,18 +117,64 @@
             "properties": [
                     {
                         "key":"storefrontContextRoot",
-                         "value":"<yourcustomstorefront>"
-                     },
+                        "value":"<yourcustomstorefront>"
+                    },
                     {
                         "key":"xss.filter.header.X-Frame-Options",
                         "value":""
-                    }
+                    },
                     {
                      "key":"storefrontContextRoot",
                      "value":"<yourcustomstorefront>"
-                     },
+                     }
             ],
             "webapps": [
+                {
+
+                 "name": "<yourcustomstorefront>",
+                 "contextPath": "/<yourcustomstorefront>"
+                 },
+                 {
+                  "name": "smartedit",
+                  "contextPath": "/smartedit"
+                  },
+
+                  {
+                  "name": "cmssmartedit",
+                  "contextPath": "/cmssmartedit"
+                  },
+
+                  {
+                  "name": "smarteditwebservices",
+                  "contextPath": "/smarteditwebservices"
+                  },
+
+                  {
+                  "name": "cmssmarteditwebservices",
+                  "contextPath": "/cmssmarteditwebservices"
+                  },
+                 {
+                  "name": "oauth2",
+                  "contextPath": "/authorizationserver"
+                  },
+                  {
+                  "name": "cmswebservices",
+                  "contextPath": "/cmswebservices"
+                  },
+
+                  {
+                  "name": "permissionswebservices",
+                  "contextPath": "/permissionswebservices"
+                  },
+
+                  {
+                  "name": "previewwebservices",
+                  "contextPath": "/previewwebservices"
+                  },
+                 {
+                  "name": "mediaweb",
+                  "contextPath": "/medias"
+                  },
                 {
                     "name": "ycommercewebservices",
                     "contextPath": "/rest"
@@ -137,7 +190,7 @@
                 {
                     "name": "permissionswebservices",
                     "contextPath": "/permissionswebservices"
-                }
+                },
                 {
                  "name": "<yourcustomstorefront>",
                  "contextPath": "/<yourcustomstorefront>"
