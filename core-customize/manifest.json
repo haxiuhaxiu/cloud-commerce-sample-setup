@@ -473,10 +473,6 @@
         {
           "name": "previewwebservices",
           "contextPath": "/previewwebservices"
-        },
-        {
-          "name": "mediaweb",
-          "contextPath": "/medias"
         }
       ]
     }
