@@ -12,8 +12,8 @@
     "cmswebservices",
     "permissionswebservices",
     "previewwebservices",
-    "mediaweb"，
-    “azurecloudhotfolder”
+    "mediaweb",
+    "azurecloudhotfolder"
   ],
   "useConfig": {
     "properties": [
